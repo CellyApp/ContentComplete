@@ -23,6 +23,6 @@ $("#myDiv").contentComplete(ccOptions);
 ```
 
 ## Example
-There is a working toy example included in the repo can be run statically off of the file
+There is a working toy example included in the repo that can be run statically off of the file
 system. Note that the staticness of the example prevents real autocomplete from working,
 but you should be able to get an idea of what is provided.
