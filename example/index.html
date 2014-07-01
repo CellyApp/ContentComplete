@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="utf-8" http-equiv="encoding">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="../src/jquery.contentComplete.js"></script>
+  <style>
+        div.autocomplete-selected { background-color : #7EC0EE; color : #FFFFFF; }
+  </style>
+</head>
+
+<body>
+    <h1>ContentComplete</h1>
+
+    <p>
+        ContentComplete is a jquery module that allows you to add autocomplete
+        to a contenteditable div. The autocompletion is triggered anywhere in
+        the div and autocompletes the current word. The toy example below will
+        always return the same results, but should illustrate how the JS works.
+    </p>
+    <br>
+    <br>
+    <div id="messWithMe" contenteditable="true" style="height: 150px; width: 300px; border: solid 1px #ccc;"></div>
+    <br>
+    <p>
+        type in the div above '@' and '#' are autocompleted.
+    </p>
+
+    <script>
+        $(function() {
+            $("#messWithMe").contentComplete({ "localTest": true, "showNoResults" : true });
+        });
+    </script>
+
+</body>
+
+</html>
