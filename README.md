@@ -1,6 +1,9 @@
 # ContentComplete
 
-A jQuery plugin developed by Celly. See it in action https://cel.ly
+A jQuery plugin developed by Celly autocompleting hashtags and at symbol
+mentions. See it in action https://cel.ly
+
+![screen shot]("https://github.com/CellyApp/ContentComplete/tree/master/example/example.png")
 
 ContentComplete is a jQuery library that allows you to autocomplete the current
 word of a contenteditable div. The autocomplete dropdown is triggered by a
