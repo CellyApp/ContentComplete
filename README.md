@@ -1,6 +1,6 @@
 # ContentComplete
 
-A jQuery plugin developed by Celly autocompleting hashtags and at symbol
+A jQuery plugin developed by Celly for autocompleting hashtags and at symbol
 mentions. See it in action https://cel.ly
 
 ![screen shot](https://raw.githubusercontent.com/CellyApp/ContentComplete/master/example/example.png)
